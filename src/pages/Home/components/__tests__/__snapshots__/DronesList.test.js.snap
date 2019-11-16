@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drone component should render correctly 1`] = `
+<div
+  className=" col-md-4 col-sm-6"
+>
+  <div
+    className="card mt-3"
+    style={
+      Object {
+        "position": "relative",
+      }
+    }
+  >
+    <div
+      className="text-center"
+    >
+      <img
+        alt="Card name"
+        className="card-img-top w-50"
+        src="Parrot.jpg"
+      />
+    </div>
+    <div
+      className="card-body text-center"
+    >
+      <div
+        className="card-text"
+      >
+        <h5
+          className="card-title"
+        >
+          Anafi
+        </h5>
+        <ul
+          className="list-group"
+        >
+          <li
+            className="list-group-item"
+          >
+            Manufacturer : 
+            Parrot
+          </li>
+          <li
+            className="list-group-item"
+          >
+            Max Flight Time : 
+            1min
+          </li>
+          <button
+            className="list-group-item list-group-item-action"
+            onClick={[Function]}
+            style={
+              Object {
+                "background": "#690513",
+                "color": "white",
+                "fontWeight": "700",
+              }
+            }
+            type="btn"
+          >
+            Rent
+          </button>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DronesList component should render correctly 1`] = `
+<div
+  className="row"
+>
+  <Drone
+    info={
+      Object {
+        "charge": "0%",
+        "manufacturer": "Parrot",
+        "maxFlightTime": "1min",
+        "model": "Anafi",
+      }
+    }
+    key="0"
+  />
+</div>
+`;

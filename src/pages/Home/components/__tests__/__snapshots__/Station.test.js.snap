@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Station component should render correctly 1`] = `
+<div
+  className="card mt-3 pt-4 pb-4 d-flex align-items-center"
+  onClick={[Function]}
+  style={Object {}}
+>
+  <div
+    className="card-body"
+  >
+    Station  
+    1
+  </div>
+</div>
+`;
